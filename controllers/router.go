@@ -9,4 +9,5 @@ func InitRouter(engine *gin.Engine) {
 	engine.GET("/book/:id", getBook)
 	engine.POST("/book", createBook)
 	engine.PUT("/book/:id", updateBook)
+	// engine.DELETE("/book/:id", deleteBook)
 }
